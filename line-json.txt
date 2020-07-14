@@ -1,0 +1,99 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "名字 Name",
+            "size": "xl",
+            "weight": "bold",
+            "gravity": "top",
+            "align": "start",
+            "wrap": true
+          },
+          {
+            "type": "image",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+            "size": "xs",
+            "align": "center",
+            "gravity": "top"
+          }
+        ],
+        "height": "25%"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "職位 | position"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "size": "sm",
+                    "text": " T   +886 2333 4444"
+                  },
+                  {
+                    "type": "text",
+                    "text": "M +886 944 333 333",
+                    "size": "sm"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "email@email.com",
+                        "size": "sm",
+                        "weight": "bold"
+                      },
+                      {
+                        "type": "spacer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "中文地址 | Miraina Tower, 4-1-6 Shinjuku, Tokyo",
+                    "size": "xs",
+                    "color": "#666666",
+                    "wrap": true
+                  },
+                  {
+                    "type": "spacer"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "width": "340px",
+    "height": "204px"
+  }
+}
