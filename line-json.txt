@@ -10,7 +10,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "名字 Name",
+            "text": "${vcard.name}",
             "size": "xl",
             "weight": "bold",
             "gravity": "top",
@@ -19,10 +19,10 @@
           },
           {
             "type": "image",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
-            "size": "xs",
-            "align": "center",
-            "gravity": "top"
+            "url": "https://i.imgur.com/P50oNRt.png",
+            "aspectRatio": "165:59",
+            "aspectMode": "fit",
+            "size": "full"
           }
         ],
         "height": "25%"
@@ -39,7 +39,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "職位 | position"
+                "text": "${vcard.title}"
               },
               {
                 "type": "box",
@@ -52,7 +52,7 @@
                   },
                   {
                     "type": "text",
-                    "text": "M +886 944 333 333",
+                    "text": "M +886 ${vcard.mobile}",
                     "size": "sm"
                   },
                   {
@@ -61,7 +61,7 @@
                     "contents": [
                       {
                         "type": "text",
-                        "text": "email@email.com",
+                        "text": "{vcard.email}",
                         "size": "sm",
                         "weight": "bold"
                       },
